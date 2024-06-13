@@ -3,7 +3,7 @@
 **Автор курса: [Михаил Непомнящий](https://www.udemy.com/user/mikhail-nepomniashchii/)**
 
 ## Описание проекта
-react-movies — это эмуляция поисковика фильмов и сериалов в интернете по [апи](https://www.omdbapi.com)
+react-movies — это эмуляция поисковика фильмов и сериалов в интернете по [апи OMDb API](https://www.omdbapi.com)
 
 ## Функционал:
 - Поиск по названию;
