@@ -1,24 +1,29 @@
-# react-food
+# react-movies
 ### ***Учебный проект из курса [React для современных веб-приложений](https://stepik.org/course/114197/syllabus)***  
 **Автор курса: [Михаил Непомнящий](https://www.udemy.com/user/mikhail-nepomniashchii/)**
 
 ## Описание проекта
-Кулинарная книга по апи [TheMealDB](https://www.themealdb.com/api.php)
+react-movies — это эмуляция поисковика фильмов и сериалов в интернете по апи [OMDb API](https://www.omdbapi.com)
 
 ## Функционал:
-- SPA приложение с переходами по внутренним ссылкам без перезагрузки страницы;
+- Поиск по названию и категориям;
+- Фильтрация фильмы, сериалы;
+- Обработка ошибок;
+
 
 ## Стек технологий:
 - HTML5 & CSS3:
-  - Materialize (аналог Bootstrap);
+  - Materialize;
 - JavaScript:
 - React JS:
-  - react-router-dom@5, Router & Link 
+  - Create React App;
+  - ...JSX;
+  - Функциональные компоненты.
 
 ## Установка и запуск приложения:
 Клонировать репозиторий:
 
-    git clone https://github.com/lemon1964/react-food.git
+    git clone https://github.com/lemon1964/react-movies.git
 
 Установить зависимости:
 
@@ -37,9 +42,9 @@
 ## Скриншот:
 <details><summary><b>Развернуть</b></summary>
 
-[![react-food](#)
+[![react-movies](#)
 
 </details>
 
 ## Ссылка на сайт:
-https://lemon1964.github.io/react-food/
+https://lemon1964.github.io/react-movies/
