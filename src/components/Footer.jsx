@@ -4,14 +4,14 @@ function Footer() {
       <div className="footer-copyright">
         <div className="container">
           © {new Date().getFullYear()} Copyright Text
-          <a
+          {/* <a
             className="grey-text text-lighten-4 right"
             href="https://github.com/lemon1964/django-react-movies"
             rel="noreferrer"
             target="_blank"
           >
             Repo
-          </a>
+          </a> */}
         </div>
       </div>
     </footer>

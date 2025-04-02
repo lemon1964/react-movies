@@ -15,14 +15,14 @@ function Header() {
                 <span onClick={handleHomeClick} className='brand-logo' style={{cursor: 'pointer'}}>
                     Movies
                 </span>
-                <ul id='nav-mobile' className='right hide-on-med-and-down'>
+                {/* <ul id='nav-mobile' className='right hide-on-med-and-down'>
                     <li>
                         <Link to={`/about`}>About</Link>
                     </li>
                     <li>
                         <Link to={`/contacts`}>Contacts</Link>
                     </li>               
-                </ul>
+                </ul> */}
             </div>
         </nav>
     );
