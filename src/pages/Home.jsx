@@ -3,6 +3,7 @@ import { useLocation, useHistory } from 'react-router-dom';
 import { Search } from '../components/Search';
 import { Preloader } from '../components/Preloader';
 import { CategoryList } from '../components/CategoryList';
+import localCategories from '../data/categories.json';
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 
@@ -57,23 +58,9 @@ function Home() {
         if (searchQuery) {
           searchMovies(searchQuery, searchType); // ✅ передаём type
         } else {
-          fetch('/categories.json')
-            .then((res) => {
-              if (!res.ok) {
-                throw new Error('Failed to fetch');
-              }
-              return res.json();
-            })
-            .then((data) => {
-              setCategories(data);
-              setMovies([]);
-              setLoading(false);
-            })
-            .catch((err) => {
-              console.error(err);
-              setError('Failed to load categories');
-              setLoading(false);
-            });
+            setCategories(localCategories);
+            setMovies([]);
+            setLoading(false);
         }      
         // eslint-disable-next-line
     }, [search]);
