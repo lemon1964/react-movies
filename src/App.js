@@ -9,7 +9,7 @@ import { NotFound } from './pages/NotFound';
 function App() {
     return (
         <>
-            <Router basename='/django-react-movies'>
+            <Router basename='/react-movies'>
                 <Header />
                 <main className='container content'>
                     <Switch>
