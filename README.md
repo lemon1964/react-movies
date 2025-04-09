@@ -1,1 +1,1 @@
-This repository contains the deployed frontend. Source code is not public..
+This repository contains the deployed frontend. Source code is not public.
